@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/*  navigation section */
+header {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+nav img {
+    width: 15%;
+}
+
+nav i {
+    font-size: 19px;
+}
+
+.fa-bars {
+    padding: 10px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.fa-bars:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.fa-magnifying-glass,
+.fa-microphone,
+.fa-video,
+.fa-bell {
+    border: 2px solid whitesmoke;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+}
+
+.fa-magnifying-glass:hover,
+.fa-microphone:hover,
+.fa-video:hover,
+.fa-bell:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+nav input {
+    padding: 15px 70px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    word-spacing: 5px;
+}
+
+.profile {
+    width: 6%;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+.profile:hover {
+    opacity: 0.6;
+}
+
+/* navigation end */
+/* li section */
+.lisec {
+    text-align: center;
+
+}
+
+.lisec li {
+
+    text-align: center;
+    margin-left: 4%;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 0.2ms;
+
+}
+
+.lisec i {
+    text-align: center;
+    margin-left: 5%;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition-duration: 0.3ms;
+
+}
+
+.lisec li:hover,
+.lisec i:hover {
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+/* li section end */
+/* side section */
+.main {
+    height: auto;
+    background-color: white;
+}
+
+.smaile {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side {
+
+    width: 7%;
+    text-align: center;
+}
+
+.side i {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    padding: 10px 10px;
+    transition-duration: 1ms;
+}
+
+.side i:hover {
+    background-color: rgba(139, 137, 137, 0.507);
+    border-radius: 10px;
+
+
+
+}
+
+/* side section end */
+
+
+
+/* video section */
+/* video section end */
